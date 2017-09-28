@@ -1,0 +1,9 @@
+.box(ng-class='{visible: visible, hidden: !visible}')
+    .bar
+        .close-button(ng-click='turnOff()')
+            |X
+    .content
+        .label
+            |Name: {{data.name}}
+        .label
+            |Abbreviation: {{data.abbreviation}}

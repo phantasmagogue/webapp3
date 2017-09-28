@@ -1,0 +1,614 @@
+[
+    {
+        "name": "Hydrogen",
+        "abbreviation": "H",
+        "type": "type",
+        "stateInRoomTemperature": "gas",
+        "group": 1,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Helium",
+        "abbreviation": "He",
+        "type": "type",
+        "stateInRoomTemperature": "gas",
+        "group": 18,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Lithium",
+        "abbreviation": "Li",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 1,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Berylium",
+        "abbreviation": "Be",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 2,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Boron",
+        "abbreviation": "B",
+        "type": "type",
+        "stateInRoomTemperature": "gas",
+        "group": 13,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Carbon",
+        "abbreviation": "C",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 14,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Nitrogen",
+        "abbreviation": "N",
+        "type": "type",
+        "stateInRoomTemperature": "gas",
+        "group": 15,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Oxygen",
+        "abbreviation": "O",
+        "type": "type",
+        "stateInRoomTemperature": "gas",
+        "group": 16,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Fluorine",
+        "abbreviation": "F",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 17,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Neon",
+        "abbreviation": "Ne",
+        "type": "type",
+        "stateInRoomTemperature": "gas",
+        "group": 18,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Sodium",
+        "abbreviation": "Na",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 1,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Magnesium",
+        "abbreviation": "Mg",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 2,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Aluminium",
+        "abbreviation": "Al",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 13,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Silicon",
+        "abbreviation": "Si",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 14,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Phosphorus",
+        "abbreviation": "P",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 15,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Sulfur",
+        "abbreviation": "S",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 16,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Chlorine",
+        "abbreviation": "Cl",
+        "type": "type",
+        "stateInRoomTemperature": "gas",
+        "group": 17,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Argon",
+        "abbreviation": "Ar",
+        "type": "type",
+        "stateInRoomTemperature": "gas",
+        "group": 18,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Potasium",
+        "abbreviation": "K",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 1,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Calcium",
+        "abbreviation": "Ca",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 2,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Scandium",
+        "abbreviation": "Sc",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 3,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Titanium",
+        "abbreviation": "Ti",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 4,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Vanadium",
+        "abbreviation": "V",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 5,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Chromium",
+        "abbreviation": "Cr",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 6,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Manganese",
+        "abbreviation": "Mn",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 7,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Iron",
+        "abbreviation": "Fe",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 8,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Cobalt",
+        "abbreviation": "Co",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 9,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Nickel",
+        "abbreviation": "Ni",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 10,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Copper",
+        "abbreviation": "Cu",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 11,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Zinc",
+        "abbreviation": "Zn",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 12,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Gallium",
+        "abbreviation": "Ga",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 13,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Germanium",
+        "abbreviation": "Ge",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 14,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Arsenic",
+        "abbreviation": "As",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 15,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Selenium",
+        "abbreviation": "Se",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 16,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Bromine",
+        "abbreviation": "Br",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 17,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    },
+    {
+        "name": "Krypton",
+        "abbreviation": "Kr",
+        "type": "type",
+        "stateInRoomTemperature": "solid",
+        "group": 18,
+        "gasTemperature": 220,
+        "liquidTemperature": 100,
+        "solidTemperature": 20,
+        "discoveryDate": "1910",
+        "discoveredBy": "John Doe",
+        "usages": "being cool",
+        "brainCandies": [
+            "Brain candy 1",
+            "Brain candy 2"
+        ]
+    }
+]

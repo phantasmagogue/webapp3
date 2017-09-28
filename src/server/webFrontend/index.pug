@@ -1,9 +1,12 @@
-html(ng-app='app' lang='eng')
+html(ng-app='periodicTable' lang='eng')
     head
         meta(charset='UTF-8')
         title
             |app
         base(href='/')
-    body
-        .container
-            ui-view
+        script(src='bundle.js')
+        style(src='styles.css')
+        link(href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet')
+    body(ng-controller='mainController')
+        periodic-table(elements='elements')
+        pop-up
