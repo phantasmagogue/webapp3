@@ -12,7 +12,6 @@ const BabelWebpackPlugin = require('babel-loader')
 module.exports = {
     entry: './index.js',
     context: __dirname + '/webFrontend',
-    devtool: 'source-map',
     output: {
         path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js'

@@ -8,7 +8,7 @@
     "test": "mocha",
     "webpack": "./node_modules/.bin/webpack --config webpack.config.js",
     "eslint": "./node_modules/.bin/eslint --ignore-path .eslintignore ./",
-    "webpack-watch": "./node_modules/.bin/webpack --config webpack.config.js --watch",
+    "webpack-watch": "./node_modules/.bin/webpack --config webpack.config.js --watch --devtool source-map",
     "deploy-prod": "npm i --only=production && npm run webpack",
     "deploy-dev": "npm i --production=false && npm run webpack",
     "start-dev-mode": "npm run webpack-watch & npm start"
