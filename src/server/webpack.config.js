@@ -10,7 +10,6 @@ const JsonWebpackPlugin = require('json-loader')
 
 module.exports = {
     entry: './index.js',
-    watch: true,
     context: __dirname + '/webFrontend',
     output: {
         path: path.resolve(__dirname, 'public'),

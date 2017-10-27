@@ -1,7 +1,9 @@
 # Generic web app
 Generic web app.
 ## How to use
-Clone a repository and run `npm run deploy` from `src/server/` in order to build the app, and then `npm start` to run a server locally.
+Clone a repository, and run `npm run deploy-prod` from `src/server/` in order to build the app, and then `npm start` to run a server locally.
+## How to run dev environment
+After the repository is cloned run `npm run deploy-dev`. It will prepare the software for the first run. Once it will be finished, run `npm run start-dev`. Once started it'll listen to changes made in files, and automatically transpile the code that you write. It will also serve your changes under port `80`.
 ## Technologies used:
 * DB
     * MariaDB
