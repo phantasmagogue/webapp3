@@ -5,13 +5,13 @@ module.exports = {
     },
     template: require('./periodicTable.pug'),
     controller: ['$scope', function ($scope) {
+        
         this.$onInit = () => {
             $scope.elementsGroups = handleElementsData(this.elements)
         }
 
         function handleElementsData(elements) {
             const elementsWithAtomicNumbers = elements.map(assignAtomicNumber)
-            const elementsWithGroupNumbers = elements.map(assignGroupNumber)
             const elementsGroups = elementsWithAtomicNumbers.reduce(splitElementsIntoGroups, [])
             const elementsGroupsWithOffsets = elementsGroups.map(fillColumnsOffsetsWithPlaceholders)
             return elementsGroupsWithOffsets
@@ -22,15 +22,8 @@ module.exports = {
             return element
         }
 
-        //TODO
-        function assignGroupNumber(element, index) {
-            columnsOffsets = [0, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 0]
-            element.group = columnsOffsets.indexOf(element.group) 
-            return element
-        }
-
         function findBiggestDivisor(numberToDivide, max) {
-            let divisor;
+            let divisor
             const startingNumber = max < numberToDivide ? max : numberToDivide
             for (let checkedNumber = startingNumber ; checkedNumber > 0 ; checkedNumber--) {
                 if (!(numberToDivide % checkedNumber)) return checkedNumber
