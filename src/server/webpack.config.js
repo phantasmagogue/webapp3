@@ -7,16 +7,35 @@ const SassWebpackPlugin = require('sass-loader')
 const StyleWebpackPlugin = require('style-loader')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const JsonWebpackPlugin = require('json-loader')
+const BabelWebpackPlugin = require('babel-loader')
 
 module.exports = {
     entry: './index.js',
     context: __dirname + '/webFrontend',
+    devtool: 'source-map',
     output: {
         path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js'
     },
     module: {
         rules: [
+            {
+                test: /\.js$/,
+                exclude: /(node_modules)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: [
+                            'es2015'
+                        ],
+                        plugins: [
+                            ['transform-private', {
+                                pattern: '^_'
+                            }]
+                        ]
+                    }
+                },
+            },
             { test: /\.pug$/, use: ['apply-loader', 'pug-loader'] },
             { test: /\.sass$/, 
                 use: ExtractTextPlugin.extract({
