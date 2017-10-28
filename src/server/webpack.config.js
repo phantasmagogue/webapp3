@@ -8,6 +8,7 @@ const StyleWebpackPlugin = require('style-loader')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const JsonWebpackPlugin = require('json-loader')
 const BabelWebpackPlugin = require('babel-loader')
+const IstanbulWebpackPlugin = require('istanbul-instrumenter-loader')
 
 module.exports = {
     entry: './index.js',
@@ -34,6 +35,15 @@ module.exports = {
                         ]
                     }
                 },
+            },
+            {
+                test: /\.js$/,
+                use: {
+                    loader: 'istanbul-instrumenter-loader',
+                    options: { esModules: true }
+                },
+                enforce: 'post',
+                exclude: /node_modules$/,
             },
             { test: /\.pug$/, use: ['apply-loader', 'pug-loader'] },
             { test: /\.sass$/, 

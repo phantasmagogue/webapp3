@@ -3,3 +3,4 @@ src/server/public
 src/server/npm-debug.log
 src/server/npm-debug.log*
 **/npm-debug.log*
+src/server/.nyc_output
