@@ -11,7 +11,9 @@ const BabelWebpackPlugin = require('babel-loader')
 const IstanbulWebpackPlugin = require('istanbul-instrumenter-loader')
 
 module.exports = {
-    entry: './index.js',
+    entry: {
+        main: ['./main.sass', './index.js']
+    },
     context: __dirname + '/webFrontend',
     output: {
         path: path.resolve(__dirname, 'public'),
@@ -61,4 +63,4 @@ module.exports = {
         }),
         new ExtractTextPlugin('styles.css')
     ]
-};
+}

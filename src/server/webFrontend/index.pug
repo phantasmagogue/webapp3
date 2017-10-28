@@ -5,7 +5,7 @@ html(ng-app='periodicTable' lang='eng')
             |app
         base(href='/')
         script(src='bundle.js')
-        style(src='styles.css')
+        link(href='styles.css' rel='stylesheet')
         link(href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet')
     body(ng-controller='mainController')
         periodic-table(elements='elements')
