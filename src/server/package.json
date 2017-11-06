@@ -5,15 +5,15 @@
   "main": "init.js",
   "scripts": {
     "start": "node init.js",
-    "test-frontend-debug": "mocha ./webFrontend/test/ --debug-brk --recursive",
-    "test-frontend": "mocha ./webFrontend/test/ --recursive",
+    "test-frontend-debug": "./node_modules/.bin/mocha ./webFrontend/test/ --debug-brk --recursive",
+    "test-frontend": "./node_modules/.bin/mocha ./webFrontend/test/ --recursive",
+    "test-frontend-coverage": "./node_modules/.bin/nyc ./node_modules/.bin/mocha ./webFrontend/test/ --recursive",
     "webpack": "./node_modules/.bin/webpack --config webpack.config.js",
     "eslint": "./node_modules/.bin/eslint --ignore-path .eslintignore ./",
     "webpack-watch": "./node_modules/.bin/webpack --config webpack.config.js --watch --devtool source-map",
     "deploy-prod": "npm i --only=production && npm run webpack",
     "deploy-dev": "npm i --production=false && npm run webpack",
     "start-dev-mode": "npm run webpack-watch & npm start",
-    "test-coverage": "./node_modules/.bin/nyc mocha ./webFrontend/test/**/*.js"
   },
   "repository": {
     "type": "git",
