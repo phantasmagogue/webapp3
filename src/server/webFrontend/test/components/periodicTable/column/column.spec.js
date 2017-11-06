@@ -1,0 +1,1 @@
+require('../../../../components/periodicTable/column/column.controller').controller
