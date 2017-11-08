@@ -1,6 +1,6 @@
 const express = require('express')
-
-const httpServer = express();
+const httpServer = express()
+const httpPort = require('./config/server.json') || process.env.PORT || 80
 
 httpServer.use(express.static('public'))
-httpServer.listen(80)
+httpServer.listen(httpPort, () => console.log('The website is being served'))
