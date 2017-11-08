@@ -33,9 +33,9 @@ class Element {
 
     getPhaseTemperature(phase, unit) {
         const temperature = ({
-            liquid: this.liquidTemperature,
-            gas: this.gasTemperature,
-            solid: this.solidTemperature
+            liquid: this._liquidTemperature,
+            gas: this._gasTemperature,
+            solid: this._solidTemperature
         })[phase] || null
 
         return utils.formatTemperature(temperature, unit)

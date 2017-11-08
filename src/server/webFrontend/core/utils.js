@@ -1,6 +1,6 @@
 module.exports = {
     formatTemperature(kelvins, unit) {
-        if (kelvins === null) return null;
+        if (kelvins === null) return null
         return ({
             C: Math.round(kelvins - 273.15),
             K: kelvins,

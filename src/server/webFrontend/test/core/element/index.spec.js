@@ -41,6 +41,7 @@ describe('Element class', () => {
 
             //then
             const expectedResult = 220
+            assert.strictEqual(result, expectedResult)
         })
 
         it('should properly return temperature when requesting gas phase', () => {
@@ -53,6 +54,7 @@ describe('Element class', () => {
 
             //then
             const expectedResult = 20
+            assert.strictEqual(result, expectedResult)
         })
 
         it('should properly return temperature when requesting gas phase', () => {
@@ -65,6 +67,7 @@ describe('Element class', () => {
 
             //then
             const expectedResult = 100
+            assert.strictEqual(result, expectedResult)
         })
 
         it('should properly return temperature when requesting for Celsius', () => {
@@ -77,6 +80,7 @@ describe('Element class', () => {
 
             //then
             const expectedResult = -173
+            assert.strictEqual(result, expectedResult)
         })
 
         it('should properly return temperature when requesting for Farenheit', () => {
@@ -84,11 +88,12 @@ describe('Element class', () => {
             const phase = elementsConstants.state.LIQUID
 
             //when
-            const unit = 'C'
+            const unit = 'F'
             const result = suite.elementInstance.getPhaseTemperature(phase, unit)
 
             //then
             const expectedResult = -280
+            assert.strictEqual(result, expectedResult)
         })
     })
 })

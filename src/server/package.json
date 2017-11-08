@@ -5,7 +5,7 @@
   "main": "init.js",
   "scripts": {
     "start": "node init.js",
-    "test-frontend-debug": "./node_modules/.bin/mocha ./webFrontend/test/ --debug-brk --recursive",
+    "test-frontend-debug": "./node_modules/.bin/mocha ./webFrontend/test/ --debug-brk --recursive --inspect",
     "test-frontend": "./node_modules/.bin/mocha ./webFrontend/test/ --recursive",
     "test-frontend-coverage": "./node_modules/.bin/nyc ./node_modules/.bin/mocha ./webFrontend/test/ --recursive",
     "webpack": "./node_modules/.bin/webpack --config webpack.config.js",

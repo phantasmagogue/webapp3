@@ -33,5 +33,5 @@ jobs:
           key: v1-dependencies-{{ checksum "src/server/package.json" }}
         
       # run tests!
-      - run: cd src/server && npm run webpack
+      - run: cd src/server && npm run eslint
       - run: cd src/server && npm run test-frontend-coverage
