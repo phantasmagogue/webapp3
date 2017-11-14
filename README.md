@@ -1,5 +1,5 @@
 # Generic web app
-Generic web app.
+This is an interactive periodic table app, created by me. It's perfect for being a base for other NodeJS + AngularJS apps.
 ## How to use
 Clone a repository, and run `npm run deploy-prod` from `src/server/` in order to build the app, and then `npm start` to run a server locally.
 ## How to run dev environment
