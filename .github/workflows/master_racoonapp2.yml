@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'racoonapp2'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b503c32d7d3e4a8eb25030988dd271cc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_35c6213a7bfc4397a3852c65fd8262e6 }}
         package: .
